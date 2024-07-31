@@ -1,0 +1,317 @@
+[
+    {
+        "question": "Cette question donne 5 points à tous les axes",
+        "effect": {
+            "econ": 5,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Tu lis l'intégralité du Mini Tel' au lieu de regader que les citations",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tire sur mon doigt",
+        "effect": {
+            "econ": 5,
+            "dipl": -5,
+            "govt": 5,
+            "scty": -5
+        }
+    },
+    {
+        "question": "Le contrôle continu est une bonne chose",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tu as validé FRE",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tu as voté Emmanuel Macron au premier tour en 2022",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Miaou miaou",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tu fais ce quiz sur ton téléphone",
+        "effect": {
+            "econ": -5,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Monsieur Turlututu porte un chapeau pointu",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Quand tu pètes tu troues ton slip",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Tu aimes manger au RU",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Popolopopopo !",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Faire du vélo est meilleur sans casque",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "L'argent fait pas le bonheur",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "question": "9 + 10 = 21",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tu as beaucoup de points communs avec Patrick Bateman",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Le violet est la meilleure couleur",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Tu préfères ta mère à ton père",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Le lean (management), c'est une supercherie",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Le café c'est pas très bon donc faut pas s'étonner. Avec beaucoup de sucre éventuellement, et encore. Non vraiment, le thé c'est mieux. Le thé vert par exemple, en plus c'est un excellent antioxydant.",
+        "effect": {
+            "econ": 5,
+            "dipl": -5,
+            "govt": -5,
+            "scty": -5
+        }
+    },
+    {
+        "question": "Le metal domine le rap s'incline",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Les couteaux c'est trop cool",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Il y a 27 lettres dans l'alphabet",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Une douche par jour, c'est pas assez",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Ce test à la con ressemble trop au test de personnalité de l'édition de printemps, qui lui-même ressemblait trop au formulaire de la Liste Vide",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La question précédente ne donnait aucun point, par contre celle là te rend un peu plus breton si tu cliques d'accord",
+        "effect": {
+            "econ": 2,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Le Mini Tel' est un meilleur journal que Franc-Tireur",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "J'ai 4 piles AA Duracell sur mon bureau",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Ton père est forgeron",
+        "effect": {
+            "econ": 20,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "L'alcool, c'est sans modération",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Le test griffor ça veut dire quelque chose",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Il fait chaud là non ?",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "C'est la dernière question du quiz",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Tu as bien vu à travers ma ruse, en effet c'était la pénultième question. Cette question annule les effets de la première question si tu réponds pareil.",
+        "effect": {
+            "econ": -5,
+            "dipl": -5,
+            "govt": -5,
+            "scty": -5
+        }
+    }
+]
