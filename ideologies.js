@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "Anarcho-Communism",
+        "name": "Bureau du Mini Tel'",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -9,7 +9,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Collectionneur de Mini Tel's",
         "stats": {
             "econ": 100,
             "dipl": 70,
@@ -18,7 +18,7 @@ ideologies = [
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "Rédacteur pour le Mini Tel'",
         "stats": {
             "econ": 100,
             "dipl": 100,
@@ -27,7 +27,7 @@ ideologies = [
         }
     },
     {
-        "name": "Marxism",
+        "name": "Fana de citations",
         "stats": {
             "econ": 100,
             "dipl": 70,
@@ -36,7 +36,7 @@ ideologies = [
         }
     },
     {
-        "name": "De Leonism",
+        "name": "Grand fan des FCR",
         "stats": {
             "econ": 100,
             "dipl": 30,
@@ -45,7 +45,7 @@ ideologies = [
         }
     },
     {
-        "name": "Leninism",
+        "name": "Poursuivi pour diffamation",
         "stats": {
             "econ": 100,
             "dipl": 40,
@@ -54,7 +54,7 @@ ideologies = [
         }
     },
     {
-        "name": "Stalinism/Maoism",
+        "name": "Destructeur d'emplois",
         "stats": {
             "econ": 100,
             "dipl": 20,
@@ -63,7 +63,7 @@ ideologies = [
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "Adepte du Papa Johnnisme",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -72,7 +72,7 @@ ideologies = [
         }
     },
     {
-        "name": "State Socialism",
+        "name": "Utilise encore Twitter en 2024",
         "stats": {
             "econ": 80,
             "dipl": 30,
@@ -81,7 +81,7 @@ ideologies = [
         }
     },
     {
-        "name": "Theocratic Socialism",
+        "name": "Miaule incontrôlablement",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -90,7 +90,7 @@ ideologies = [
         }
     },
     {
-        "name": "Religious Socialism",
+        "name": "Anim'Est",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -99,7 +99,7 @@ ideologies = [
         }
     },
     {
-        "name": "Democratic Socialism",
+        "name": "Gamemix13",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -108,7 +108,7 @@ ideologies = [
         }
     },
     {
-        "name": "Revolutionary Socialism",
+        "name": "Non-binaire",
         "stats": {
             "econ": 80,
             "dipl": 20,
@@ -117,7 +117,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Socialism",
+        "name": "Possède un bar à nouilles",
         "stats": {
             "econ": 80,
             "dipl": 80,
@@ -126,7 +126,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Syndicalism",
+        "name": "Tirelipimpon",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -135,7 +135,7 @@ ideologies = [
         }
     },
     {
-        "name": "Left-Wing Populism",
+        "name": "Amateur de chansons paillardes",
         "stats": {
             "econ": 60,
             "dipl": 40,
@@ -144,7 +144,7 @@ ideologies = [
         }
     },
     {
-        "name": "Theocratic Distributism",
+        "name": "Catcheur",
         "stats": {
             "econ": 60,
             "dipl": 40,
@@ -153,7 +153,7 @@ ideologies = [
         }
     },
     {
-        "name": "Distributism",
+        "name": "Mental breakdancer",
         "stats": {
             "econ": 60,
             "dipl": 50,
@@ -162,7 +162,7 @@ ideologies = [
         }
     },
     {
-        "name": "Social Liberalism",
+        "name": "Poilu (première guerre mondiale)",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -171,7 +171,7 @@ ideologies = [
         }
     },
     {
-        "name": "Christian Democracy",
+        "name": "A un sac en carton sur la tête",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -180,7 +180,7 @@ ideologies = [
         }
     },
     {
-        "name": "Social Democracy",
+        "name": "RRRAAAAAAAAAAAHHHHHHHHH",
         "stats": {
             "econ": 60,
             "dipl": 70,
@@ -189,7 +189,7 @@ ideologies = [
         }
     },
     {
-        "name": "Progressivism",
+        "name": "Joyeux",
         "stats": {
             "econ": 60,
             "dipl": 80,
@@ -198,7 +198,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Mutualism",
+        "name": "GUILLERET",
         "stats": {
             "econ": 60,
             "dipl": 50,
@@ -207,7 +207,7 @@ ideologies = [
         }
     },
     {
-        "name": "National Totalitarianism",
+        "name": "Fan de MN mais déteste le nucléaire",
         "stats": {
             "econ": 50,
             "dipl": 20,
@@ -216,7 +216,7 @@ ideologies = [
         }
     },
     {
-        "name": "Global Totalitarianism",
+        "name": "Regarde le soleil droit dans les yeux",
         "stats": {
             "econ": 50,
             "dipl": 80,
@@ -225,7 +225,7 @@ ideologies = [
         }
     },
     {
-        "name": "Technocracy",
+        "name": "Fan de MN et adore le nucléaire",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -234,7 +234,7 @@ ideologies = [
         }
     },
     {
-        "name": "Centrist",
+        "name": "Gérald Oster",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -243,7 +243,7 @@ ideologies = [
         }
     },
     {
-        "name": "Liberalism",
+        "name": "Filet Ball",
         "stats": {
             "econ": 50,
             "dipl": 60,
@@ -252,7 +252,7 @@ ideologies = [
         }
     },
     {
-        "name": "Religious Anarchism",
+        "name": "Ender dragon",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -261,7 +261,7 @@ ideologies = [
         }
     },
     {
-        "name": "Right-Wing Populism",
+        "name": "Bulgare",
         "stats": {
             "econ": 40,
             "dipl": 30,
@@ -270,7 +270,7 @@ ideologies = [
         }
     },
     {
-        "name": "Moderate Conservatism",
+        "name": "Bons baisers de Fort-de-France",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -279,7 +279,7 @@ ideologies = [
         }
     },
     {
-        "name": "Reactionary",
+        "name": "Aigle",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -288,7 +288,7 @@ ideologies = [
         }
     },
     {
-        "name": "Social Libertarianism",
+        "name": "Starseed",
         "stats": {
             "econ": 60,
             "dipl": 70,
@@ -297,7 +297,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarianism",
+        "name": "Tibo InShape",
         "stats": {
             "econ": 40,
             "dipl": 60,
@@ -306,7 +306,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Egoism",
+        "name": "A déjà bu sa propre pisse",
         "stats": {
             "econ": 40,
             "dipl": 50,
@@ -315,7 +315,7 @@ ideologies = [
         }
     },
     {
-        "name": "Nazism",
+        "name": "S'est chié dessus dans l'amphi Nord",
         "stats": {
             "econ": 40,
             "dipl": 0,
@@ -324,7 +324,7 @@ ideologies = [
         }
     },
     {
-        "name": "Autocracy",
+        "name": "Weeb",
         "stats": {
             "econ": 50,
             "dipl": 20,
@@ -333,7 +333,7 @@ ideologies = [
         }
     },
     {
-        "name": "Fascism",
+        "name": "Italien",
         "stats": {
             "econ": 40,
             "dipl": 20,
@@ -342,7 +342,7 @@ ideologies = [
         }
     },
     {
-        "name": "Capitalist Fascism",
+        "name": "A vendu ses cartes pokémon de son enfance",
         "stats": {
             "econ": 20,
             "dipl": 20,
@@ -351,7 +351,7 @@ ideologies = [
         }
     },
     {
-        "name": "Conservatism",
+        "name": "Mange même la bouffe périmée",
         "stats": {
             "econ": 30,
             "dipl": 40,
@@ -360,7 +360,7 @@ ideologies = [
         }
     },
     {
-        "name": "Neo-Liberalism",
+        "name": "Écrase des moustiques pour le plaisir",
         "stats": {
             "econ": 30,
             "dipl": 30,
@@ -369,7 +369,7 @@ ideologies = [
         }
     },
     {
-        "name": "Classical Liberalism",
+        "name": "Fan de Mozart",
         "stats": {
             "econ": 30,
             "dipl": 60,
@@ -378,7 +378,7 @@ ideologies = [
         }
     },
     {
-        "name": "Authoritarian Capitalism",
+        "name": "Automobiliste",
         "stats": {
             "econ": 20,
             "dipl": 30,
@@ -387,7 +387,7 @@ ideologies = [
         }
     },
     {
-        "name": "State Capitalism",
+        "name": "Mourra tout nu",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -396,7 +396,7 @@ ideologies = [
         }
     },
     {
-        "name": "Neo-Conservatism",
+        "name": "Néo dans Matrix",
         "stats": {
             "econ": 20,
             "dipl": 20,
@@ -405,7 +405,7 @@ ideologies = [
         }
     },
     {
-        "name": "Fundamentalism",
+        "name": "Code des mods Minecraft",
         "stats": {
             "econ": 20,
             "dipl": 30,
@@ -414,7 +414,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Capitalism",
+        "name": "Organise la pride chaque année",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -423,7 +423,7 @@ ideologies = [
         }
     },
     {
-        "name": "Market Anarchism",
+        "name": "Utilise Chat GPT pour coder",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -432,7 +432,7 @@ ideologies = [
         }
     },
     {
-        "name": "Objectivism",
+        "name": "Bottom",
         "stats": {
             "econ": 10,
             "dipl": 50,
@@ -441,7 +441,7 @@ ideologies = [
         }
     },
     {
-        "name": "Totalitarian Capitalism",
+        "name": "Yannick Jadot",
         "stats": {
             "econ": 0,
             "dipl": 30,
@@ -450,7 +450,7 @@ ideologies = [
         }
     },
     {
-        "name": "Ultra-Capitalism",
+        "name": "Ultralisk",
         "stats": {
             "econ": 0,
             "dipl": 40,
@@ -459,7 +459,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Capitalism",
+        "name": "REACH OUT TO THE TRUTH",
         "stats": {
             "econ": 0,
             "dipl": 50,
