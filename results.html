@@ -89,20 +89,22 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Indépendantiste Breton","A un drapeau dans sa chambre","Spamme BZH sur twitch","A déjà été en Bretagne","DÉTESTE le cidre","Fait des crêpes avec pas assez d'oeufs","Veut l'indépendance de la bretagne pour pouvoir les envahir à nouveau"]
-    diplArray = ["Littéralement Rémi BACHELET","100 d'Agilité","Fait des todo lists","For those who love calculus ✍️","Membre Math'N","A majoré sa prépa","Littéralement Marc TOMCZAK"]
-    govtArray = ["Artichaut AVEC sauce (très bonne)","Artichaut sans sauce","Coeur d'artichaut nu et poilu","Carotte","Concombre","Aubergine","Une tah la courgette mon gars"]
-    sctyArray = ["Méca Jeff Bezos","Fait du dropshipping/OFM","Petit bourgeois parisien","Un mec cis blanc","Pickup artist","Giga baiseur","Casanova"]
-
+    econArray = ["Indépendantiste Breton","A un drapeau dans sa chambre","Spamme BZH sur twitch","A un sticker À l'aise Breizh","A déjà été en Bretagne","Sait conduire","DÉTESTE le cidre","Fait des crêpes avec pas assez d'oeufs","Veut l'indépendance de la bretagne pour pouvoir les envahir à nouveau"]
+    diplArray = ["Littéralement Rémi BACHELET","SCRUM master","100 d'Agilité","Fait des todo lists","For those who love calculus ✍️","A regardé une vidéo de Micmaths","Membre Math'N","A majoré sa prépa","Littéralement Marc TOMCZAK"]
+    govtArray = ["Artichaut AVEC sauce (très bonne)","Artichaut sans sauce","Coeur d'artichaut nu et poilu","Pizza aux artichauts","Carotte","Concombre","Aubergine","Une tah la courgette mon gars", "Téma le gratin"]
+    sctyArray = ["Méca Jeff Bezos","Conduit un cybertruck","Fait du dropshipping/OFM","Petit bourgeois parisien","Un mec cis blanc","Pickup artist","Mâle alpha","Giga baiseur","Casanova"]
+    
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
         if (val > 75) { return ary[1] } else
         if (val > 60) { return ary[2] } else
-        if (val >= 40) { return ary[3] } else
-        if (val >= 25) { return ary[4] } else
-        if (val >= 10) { return ary[5] } else
-        if (val >= 0) { return ary[6] } else
+        if (val > 55) { return ary[3] } else
+        if (val >= 45) { return ary[4] } else
+        if (val >= 40) { return ary[5] } else
+        if (val >= 25) { return ary[6] } else
+        if (val >= 10) { return ary[7] } else
+        if (val >= 0) { return ary[8] } else
         	{return ""}
     }
 
@@ -217,7 +219,7 @@ stats"></a></div></noscript>
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("8values.github.io", 780, 60)
+        ctx.fillText("leboufty.github.io/minitelvalues", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("Axe Bretagne: " + document.getElementById("economic-label").innerHTML, 400, 175)
