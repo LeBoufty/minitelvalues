@@ -16,7 +16,7 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -33,7 +33,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -43,13 +43,13 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
         "question": "Tu as voté Emmanuel Macron au premier tour en 2022",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
             "scty": 10
@@ -94,7 +94,7 @@ questions = [
     {
         "question": "Tu aimes manger au RU",
         "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": 0,
             "govt": 10,
             "scty": -10
@@ -112,7 +112,7 @@ questions = [
     {
         "question": "Faire du vélo est meilleur sans casque",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": 0,
             "govt": -10,
             "scty": 0
@@ -141,7 +141,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -169,7 +169,7 @@ questions = [
             "econ": 0,
             "dipl": -10,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -184,7 +184,7 @@ questions = [
     {
         "question": "Le metal domine le rap s'incline",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
             "scty": -10
@@ -212,7 +212,7 @@ questions = [
         "question": "Il y a 27 lettres dans l'alphabet",
         "effect": {
             "econ": 10,
-            "dipl": -5,
+            "dipl": 0,
             "govt": 0,
             "scty": 0
         }
@@ -223,7 +223,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -249,7 +249,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -268,7 +268,7 @@ questions = [
             "econ": 20,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -286,7 +286,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -294,7 +294,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -5
         }
     },
