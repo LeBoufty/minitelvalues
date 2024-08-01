@@ -69,19 +69,21 @@ def find_path(target_ideology_name):
     target_ideology = get_target_ideology(target_ideology_name)
     if target_ideology is None:
         return None
-    answers = []
-    while len(answers) < len(questions):
-        min_distance = float('inf')
-        best_answer = None
-        if pointless_decision(answers, target_ideology):
-            answers.append(0)
-            continue
-        for answer in possible_answers:
-            distance = calculate_distance_of_answers(answers + [answer], target_ideology)
-            if distance < min_distance:
-                min_distance = distance
-                best_answer = answer
-        answers.append(best_answer)
+    answers = [0] * len(questions)
+    previous_answers = answers.copy()
+    while calculate_ideology(answers)["name"] != target_ideology_name:
+        answers = previous_answers.copy()
+        for i in range(len(answers)):
+            best_answer = 0
+            possible_answer_chains = [answers[:i] + [a] + answers[i+1:] for a in possible_answers]
+            possible_distances = [calculate_distance_of_answers(a, target_ideology) for a in possible_answer_chains]
+            best_answer = possible_answers[possible_distances.index(min(possible_distances))]
+            answers[i] = best_answer
+        if previous_answers == answers:
+            break
+        previous_answers = answers.copy()
+    if calculate_ideology(answers)["name"] != target_ideology_name:
+        return []
     return answers
 
 # def find_path_recursive(target_ideology_name):
@@ -120,5 +122,5 @@ def print_results(answers):
 
 if __name__ == "__main__":
     # json.dump(find_paths(), open('testing/found_paths.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
-    json.load(open('testing/found_paths.json', encoding='utf-8'))
-    print_results(find_path("S'est chié dessus dans l'amphi Nord"))
+    found_paths = json.load(open('testing/found_paths.json', encoding='utf-8'))
+    print_results(found_paths["Bulgare"])
