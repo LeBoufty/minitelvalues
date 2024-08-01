@@ -9,6 +9,14 @@ questions = [q['effect'] for q in questions]
 
 possible_answers = [-1, -0.5, 0, 0.5, 1]
 
+max_scores = {"econ": 0, "dipl": 0, "govt": 0, "scty": 0}
+for q in questions:
+    for k, v in q.items():
+        max_scores[k] += abs(v)
+
+def calc_final_score(score, maxi):
+    return round(100*(maxi+score)/(2*maxi), 1)
+
 def empty_scores():
     return {"econ": 0, "dipl": 0, "govt": 0, "scty": 0}
 
@@ -20,10 +28,11 @@ def get_target_ideology(ideology_name):
 
 def calculate_distance(scores, target_ideology):
     dist = 0
-    dist += abs(scores["econ"] - target_ideology["econ"]) ** 2
-    dist += abs(scores["dipl"] - target_ideology["dipl"]) ** 1.73856063
-    dist += abs(scores["govt"] - target_ideology["govt"]) ** 2
-    dist += abs(scores["scty"] - target_ideology["scty"]) ** 1.73856063
+    final_scores = {k: calc_final_score(v, max_scores[k]) for k, v in scores.items()}
+    dist += abs(final_scores["econ"] - target_ideology["econ"]) ** 2
+    dist += abs(final_scores["dipl"] - target_ideology["dipl"]) ** 1.73856063
+    dist += abs(final_scores["govt"] - target_ideology["govt"]) ** 2
+    dist += abs(final_scores["scty"] - target_ideology["scty"]) ** 1.73856063
     return dist
 
 def calculate_ideology(answers):
@@ -56,16 +65,26 @@ def pointless_decision(answers, target_ideology):
             return False
     return True
 
-def find_paths():
-    try: found = json.load(open('testing/found_paths.json', encoding='utf-8'))
-    except: found = {k["name"]: None for k in ideologies}
-    for j in range(100000):
-        answers = [random.choice(possible_answers) for _ in range(len(questions))]
-        if found[calculate_ideology(answers)["name"]] is None:
-            found[calculate_ideology(answers)["name"]] = answers
-    return found
+def find_path(target_ideology_name):
+    target_ideology = get_target_ideology(target_ideology_name)
+    if target_ideology is None:
+        return None
+    answers = []
+    while len(answers) < len(questions):
+        min_distance = float('inf')
+        best_answer = None
+        if pointless_decision(answers, target_ideology):
+            answers.append(0)
+            continue
+        for answer in possible_answers:
+            distance = calculate_distance_of_answers(answers + [answer], target_ideology)
+            if distance < min_distance:
+                min_distance = distance
+                best_answer = answer
+        answers.append(best_answer)
+    return answers
 
-# def find_path(target_ideology_name):
+# def find_path_recursive(target_ideology_name):
 #     target_ideology = get_target_ideology(target_ideology_name)
 #     if target_ideology is None:
 #         return None
@@ -88,11 +107,18 @@ def find_paths():
 #     answers = backtrack([], target_ideology)
 #     return answers
 
+def find_paths():
+    found = {k["name"]: [] for k in ideologies}
+    for ideology in ideologies:
+        found[ideology["name"]] = find_path(ideology["name"])
+    return found
+
 def print_results(answers):
     answer_names = ["Absolument pas d'accord", "Pas d'accord", "Neutre", "D'accord", "Absolument d'accord"]
     for i, a in enumerate(answers):
         print(f"Question {i + 1}: {answer_names[int(2*(a+1))]}")
 
 if __name__ == "__main__":
-    found = json.load(open('testing/found_paths.json', encoding='utf-8'))
-    print_results(found["REACH OUT TO THE TRUTH"])
+    # json.dump(find_paths(), open('testing/found_paths.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+    json.load(open('testing/found_paths.json', encoding='utf-8'))
+    print_results(find_path("S'est chié dessus dans l'amphi Nord"))
